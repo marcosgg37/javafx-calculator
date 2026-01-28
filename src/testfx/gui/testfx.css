@@ -1,0 +1,17 @@
+.number {
+	-fx-background-color: white;
+	-fx-effect: DropShadow(gaussian, black, 5, 0.1, 0, 2);
+}
+
+.number:hover {
+	-fx-background-color: lightgrey;
+}
+
+.number:pressed {
+	-fx-background-color: grey;
+}
+
+#screen {
+	-fx-font-family: impact bold;
+	-fx-font-size: 20px;
+}
